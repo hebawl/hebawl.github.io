@@ -282,6 +282,11 @@ nav a:hover {
     border-bottom-color: var(--accent);
 }
 
+.project-links {
+    display: flex;
+    gap: 16px;
+}
+
 
 /* SKILLS */
 

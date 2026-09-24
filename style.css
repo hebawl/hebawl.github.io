@@ -127,6 +127,28 @@ nav a:hover {
     padding-bottom: 4px;
 }
 
+.cv-download {
+    background: var(--accent);
+    color: white;
+    padding: 6px 12px !important;
+    border: none !important;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.cv-download:hover {
+    background: #1f3d36;
+}
+
+.download-link {
+    color: var(--accent);
+}
+
+.download-link:hover {
+    color: #1f3d36;
+    border-bottom-color: #1f3d36;
+}
+
 
 /* SECTIONS */
 
@@ -285,74 +307,6 @@ nav a:hover {
 .project-links {
     display: flex;
     gap: 16px;
-}
-
-
-/* DOWNLOADS */
-
-.downloads {
-    background: transparent;
-}
-
-.downloads-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-
-    margin-top: 80px;
-}
-
-.download-item {
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 32px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-
-    transition: all 0.3s ease;
-}
-
-.download-item:hover {
-    border-color: var(--accent);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-}
-
-.download-item h3 {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--text);
-    margin: 0;
-}
-
-.download-item p {
-    color: #555;
-    font-size: 14px;
-    margin: 0;
-}
-
-.download-btn {
-    font-family: "DM Mono", monospace;
-    font-size: 12px;
-    background: var(--accent);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 12px 16px;
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
-    width: fit-content;
-
-    transition: all 0.2s ease;
-    text-decoration: none;
-}
-
-.download-btn:hover {
-    background: #1f3d36;
-    box-shadow: 0 4px 12px rgba(49, 92, 82, 0.2);
 }
 
 
@@ -537,12 +491,6 @@ footer {
 
     .email {
         font-size: 15px;
-    }
-
-    .downloads-content {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin-top: 60px;
     }
 
 }

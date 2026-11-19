@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Heba Walid Awad</title>
+    <meta name="description" content="Heba Walid Awad — software developer and computer engineering graduate building web, mobile, and machine-learning projects.">
+    <title>Heba Walid Awad — Software Development & AI</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,13 +13,15 @@
 <body>
 
     <header class="navbar">
-        <a href="#" class="logo">HWA</a>
+        <a href="#home" class="logo" aria-label="Heba Walid Awad, home">HWA<span>.</span></a>
 
-        <nav>
+        <nav aria-label="Main navigation">
             <a href="#about">About</a>
-            <a href="#work">Work</a>
+            <a href="#work">Projects</a>
             <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#credentials">Credentials</a>
+            <a href="#skills">Toolkit</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -27,39 +30,36 @@
     <main>
 
         <!-- HERO -->
-        <section class="hero">
+        <section id="home" class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPMENT · AI · DATA</p>
+                <h1>Hello, I'm<br><span>Heba</span><span class="hero-period">.</span></h1>
+                <p class="hero-description">
+                    I enjoy building software across the stack—from user-facing apps to APIs
+                    and data-driven features—and learning how teams turn ideas into useful products.
+                </p>
 
-            <p class="eyebrow">COMPUTER ENGINEER · AI · MACHINE LEARNING</p>
+                <div class="hero-actions">
+                    <a href="assets/Heba_Walid_Awad_CV.pdf" download class="button button-primary">
+                        Download my CV <span aria-hidden="true">↓</span>
+                    </a>
+                    <a href="#work" class="button button-secondary">Explore my work <span aria-hidden="true">↘</span></a>
+                </div>
 
-            <h1>
-                Hello, I'm<br>
-                <span>Heba.</span>
-            </h1>
-
-            <p class="hero-description">
-                Computer Engineering graduate interested in
-                artificial intelligence, machine learning,
-                and building data-driven systems.
-            </p>
-
-            <div class="hero-links">
-                <a href="https://github.com/hebawl" target="_blank">
-                    GitHub ↗
-                </a>
-
-                <a href="https://linkedin.com/in/heba-walid-awad-6934112b4" target="_blank">
-                    LinkedIn ↗
-                </a>
-
-                <a href="mailto:anizihiba2@gmail.com">
-                    Email ↗
-                </a>
-
-                <a href="assets/Heba_Walid_Awad_CV.pdf" download class="cv-download">
-                    📄 CV
-                </a>
+                <div class="hero-socials" aria-label="Social links">
+                    <a href="https://github.com/hebawl" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://linkedin.com/in/heba-walid-awad-6934112b4" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="mailto:anizihiba2@gmail.com">Email ↗</a>
+                    <a href="tel:+905530282109">+90 553 028 21 09</a>
+                </div>
             </div>
 
+            <aside class="hero-art" aria-label="Highlights from my projects">
+                <div class="hero-art-orbit hero-art-orbit-one"></div>
+                <div class="hero-art-orbit hero-art-orbit-two"></div>
+                <div class="hero-monogram">H<span>W</span>A</div>
+                <p class="hero-art-caption">CURIOUS BY NATURE<br>ENGINEER BY PRACTICE</p>
+            </aside>
         </section>
 
 
@@ -69,27 +69,21 @@
             <p class="section-label">01 / ABOUT</p>
 
             <div class="about-content">
-
-                <h2>
-                    Building things with
-                    code & curiosity.
-                </h2>
-
-                <div>
+                <h2>I like building the<br>whole thing.</h2>
+                <div class="about-copy">
                     <p>
-                        I'm a Computer Engineering graduate based in
-                        Ankara, Türkiye, passionate about Artificial Intelligence,
-                        Machine Learning, and Database Systems.
+                        I'm a Computer Engineering graduate based in Çankaya, Ankara, Türkiye.
+                        I enjoy building software across the stack—from thoughtful interfaces
+                        and APIs to the data and services behind them.
                     </p>
-
                     <p>
-                        I enjoy turning problems into practical
-                        solutions — from search algorithms and
-                        natural language processing to data analysis
-                        and intelligent systems.
+                        I'm energized by curious, supportive teams and the process of turning an idea
+                        into something people can use. I'm also exploring project planning and
+                        coordination: how clear goals and good teamwork help a project move forward.
+                        I'm looking for an entry-level software role where I can contribute and grow.
                     </p>
+                    <div class="about-note"><span>Areas I'm exploring</span><strong>Software development · AI · Project planning</strong></div>
                 </div>
-
             </div>
 
         </section>
@@ -98,52 +92,117 @@
         <!-- PROJECTS -->
         <section id="work" class="section projects">
 
-            <p class="section-label">02 / SELECTED WORK</p>
+            <div class="section-heading">
+                <p class="section-label">02 / SELECTED WORK</p>
+                <p class="section-intro">A few problems I've enjoyed turning into practical projects.</p>
+            </div>
 
             <div class="projects-grid">
 
                 <article class="project-card">
+                    <div class="project-image phishing-art" role="img" aria-label="Illustrated preview of an AI phishing email detector">
+                        <div class="phishing-window">
+                            <span class="phishing-window-dots"><i></i><i></i><i></i></span>
+                            <span class="phishing-mail-icon">@</span>
+                            <div>
+                                <span class="phishing-window-label">INBOX · MESSAGE CHECK</span>
+                                <strong>Is this email safe?</strong>
+                                <span class="phishing-result">AI ANALYSIS <b>THREAT DETECTED</b></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-info">
+                        <p class="project-number">01 <span>· SAMSUNG INNOVATION CAMPUS CAPSTONE</span></p>
+                        <h3>AI-powered phishing email detection</h3>
+                        <p class="project-description">
+                            For this six-person capstone, I prepared and analyzed 39,154 emails with Python and Pandas.
+                            The team's detector reached 99.62% accuracy on a sender-disjoint test set.
+                        </p>
+                        <div class="project-tags"><span>Python · scikit-learn</span><span>FastAPI</span><span>React</span><span>Team of 6</span></div>
+                        <details class="project-details">
+                            <summary>What we built</summary>
+                            <p>Prepared and analyzed a 39,154-email dataset with Python and Pandas, then evaluated the detector on a sender-disjoint test set. The model reached 99.62% accuracy on that evaluation.</p>
+                        </details>
+                        <div class="project-result">
+                            <strong>99.62%</strong>
+                            <span>accuracy on sender-disjoint test set</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://nexus-phishing-detector.onrender.com" target="_blank" rel="noopener noreferrer" class="project-link">Try the demo ↗</a>
+                            <a href="https://github.com/sic-graduation-project/phishing-email-detector" target="_blank" rel="noopener noreferrer" class="project-link">Team GitHub ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card project-card-skinbadge">
+                    <div class="project-image skinbadge-screens" role="group" aria-label="Selected screens from the SkinBadge app">
+                        <a href="assets/skinbadge-home.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Open SkinBadge home screen">
+                            <img src="assets/skinbadge-home.jpeg" alt="SkinBadge home screen" loading="lazy">
+                        </a>
+                        <a href="assets/skinbadge-favorites.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Open SkinBadge favorites screen">
+                            <img src="assets/skinbadge-favorites.jpeg" alt="SkinBadge saved products screen" loading="lazy">
+                        </a>
+                        <a href="assets/skinbadge-explore.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Open SkinBadge explore screen">
+                            <img src="assets/skinbadge-explore.jpeg" alt="SkinBadge product explore screen" loading="lazy">
+                        </a>
+                        <a href="assets/skinbadge-product-detail.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Open SkinBadge product details screen">
+                            <img src="assets/skinbadge-product-detail.jpeg" alt="SkinBadge product details screen" loading="lazy">
+                        </a>
+                    </div>
+
+                    <div class="project-card-info">
+                        <p class="project-number">02 <span>· GRADUATION PROJECT</span></p>
+                        <h3>Personalized skincare, powered by ML</h3>
+                        <p class="project-description">
+                            A team-built skincare app that combines a skin quiz, ingredient information,
+                            product discovery, and personalized recommendations.
+                        </p>
+                        <div class="project-tags"><span>Expo · React Native</span><span>FastAPI · scikit-learn</span><span>Team project</span></div>
+
+                        <details class="project-details">
+                            <summary>What I worked on</summary>
+                            <p>I contributed to the app's front end and user interface. I also worked with teammates on the product catalog and machine-learning model development; API integration, deployment, and final polish were collaborative work.</p>
+                            <p>The Expo/React Native app connects through a Spring Boot backend to a FastAPI service for skin-sensitivity prediction and product recommendations.</p>
+                        </details>
+                    </div>
+                </article>
+
+                <article class="project-card">
 
                     <div class="project-image">
-                        <img src="assets/delivery-route.png" alt="Delivery Route Optimization - City Environment">
+                        <div class="linksnap-art" role="img" aria-label="Illustration of the LinkSnap URL shortener workflow">
+                            <span class="linksnap-chip">LONG URL</span><span class="linksnap-arrow">↘</span>
+                            <strong>link<span>snap</span></strong>
+                            <span class="linksnap-short">LINKSNAP / A6Kp2Q</span>
+                        </div>
                     </div>
 
                     <div class="project-card-info">
 
-                        <p class="project-number">01</p>
+                        <p class="project-number">03 <span>· BACKEND · IN PROGRESS</span></p>
 
-                        <h3>Delivery Route<br>Optimization</h3>
+                        <h3>LinkSnap URL shortener</h3>
 
                         <p class="project-description">
-                            Graph-based routing system comparing
-                            BFS and A* search with reflex and
-                            model-based agents.
+                            A FastAPI and PostgreSQL service with validated URLs, collision-safe six-character codes,
+                            redirects, and a simple web interface.
                         </p>
 
-                        <p class="project-type">
-                            PYTHON · AI · A*
-                        </p>
+                        <div class="project-tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>Web app</span></div>
 
-                        <div class="project-result">
-                            <strong>38.7%</strong>
-                            <span>fewer explored nodes</span>
-                        </div>
+                        <details class="project-details">
+                            <summary>How it works</summary>
+                            <p>Includes input validation, six-character short codes with collision retry, URL redirects, and PostgreSQL persistence. The project is in progress.</p>
+                        </details>
 
                         <div class="project-links">
                             <a
-                                href="https://github.com/hebawl/Delivery_robot"
+                                href="https://github.com/hebawl/LinkSnap"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 class="project-link"
                             >
-                                GitHub ↗
-                            </a>
-                            <a
-                                href="https://github.com/hebawl/Delivery_robot/raw/main/DeliveryRobot%20(1).pdf"
-                                download
-                                class="project-link download-link"
-                                title="Download Delivery Robot Report"
-                            >
-                                📄 Report
+                                View on GitHub ↗
                             </a>
                         </div>
 
@@ -155,24 +214,26 @@
                 <article class="project-card">
 
                     <div class="project-image">
-                        <img src="assets/flyrank-project.png" alt="FlyRank - Applied Search Intelligence">
+                        <img src="assets/flyrank-project.png" alt="FlyRank Applied Search Intelligence project dashboard" loading="lazy">
                     </div>
 
                     <div class="project-card-info">
 
-                        <p class="project-number">02</p>
+                        <p class="project-number">04 <span>· MACHINE LEARNING</span></p>
 
                         <h3>Applied Search<br>Intelligence</h3>
 
                         <p class="project-description">
-                            ML-driven analysis of 30,000+ pages across
-                            32 client websites using K-Means clustering
-                            to identify page-performance archetypes.
+                            At FlyRank, I analyzed 30,000+ pages across 32 client sites to help teams decide what content to refresh,
+                            investigate, or monitor.
                         </p>
 
-                        <p class="project-type">
-                            PYTHON · ML · CLUSTERING
-                        </p>
+                        <div class="project-tags"><span>Python</span><span>K-Means</span><span>Search analytics</span></div>
+
+                        <details class="project-details">
+                            <summary>How it works</summary>
+                            <p>Clustered pages into four performance archetypes, evaluated the clusters with silhouette scores, and compared them with a rule-based baseline. A Python/Jupyter triage workflow helps prioritize pages to refresh, investigate, or monitor.</p>
+                        </details>
 
                         <div class="project-result">
                             <strong>4</strong>
@@ -183,6 +244,7 @@
                             <a
                                 href="https://hebawl.github.io/starter/"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 class="project-link"
                             >
                                 View demo ↗
@@ -190,6 +252,7 @@
                             <a
                                 href="https://github.com/hebawl/starter"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 class="project-link"
                             >
                                 GitHub ↗
@@ -204,37 +267,71 @@
                 <article class="project-card">
 
                     <div class="project-image">
-                        <img src="assets/house-price.svg" alt="House Price Prediction - Regression Visualization">
+                        <img src="assets/delivery-route.png" alt="Delivery Route Optimization grid and pathfinding visualization" loading="lazy">
                     </div>
 
                     <div class="project-card-info">
 
-                        <p class="project-number">03</p>
+                        <p class="project-number">05 <span>· SEARCH & OPTIMIZATION</span></p>
 
-                        <h3>House Price<br>Prediction</h3>
+                        <h3>Delivery Route<br>Optimization</h3>
 
                         <p class="project-description">
-                            Machine learning system for predicting
-                            house prices through feature
-                            engineering and model evaluation.
+                            A Python delivery simulator comparing BFS and A* route planning with reflex and model-based agents.
+                            A* explored 38.7% fewer nodes than BFS in the reported comparison.
                         </p>
 
-                        <p class="project-type">
-                            PYTHON · ML · REGRESSION
-                        </p>
+                        <div class="project-tags"><span>Python</span><span>BFS & A*</span><span>AI agents</span></div>
+
+                        <details class="project-details">
+                            <summary>How it works</summary>
+                            <p>Compared breadth-first search with A* using Manhattan distance, then tested reflex and model-based agents. A* explored 38.7% fewer nodes than BFS in the reported comparison.</p>
+                        </details>
 
                         <div class="project-result">
-                            <strong>0.75</strong>
-                            <span>R² score</span>
+                            <strong>38.7%</strong>
+                            <span>fewer explored nodes</span>
                         </div>
 
                         <div class="project-links">
-                            <a
-                                href="#"
-                                class="project-link"
-                            >
-                                GitHub ↗
-                            </a>
+                            <a href="https://github.com/hebawl/Delivery_robot" target="_blank" rel="noopener noreferrer" class="project-link">GitHub ↗</a>
+                            <a href="assets/DeliveryRobot_Report.pdf" download class="project-link project-link-download">Download paper ↓</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/retina-classification.svg" alt="Illustration of retinal image classification and model output" loading="lazy">
+                    </div>
+
+                    <div class="project-card-info">
+
+                        <p class="project-number">06 <span>· COMPUTER VISION</span></p>
+
+                        <h3>Diabetic retinopathy classification</h3>
+
+                        <p class="project-description">
+                            An image-classification demo exploring whether a retinal image may show signs of diabetic retinopathy.
+                        </p>
+
+                        <div class="project-tags"><span>Python</span><span>PyTorch</span><span>EfficientNet-B0</span></div>
+
+                        <details class="project-details">
+                            <summary>Model & evaluation</summary>
+                            <p>Fine-tuned an EfficientNet-B0 model with IDRiD fundus images to classify Normal versus possible diabetic retinopathy. It reached 92.8% accuracy across 83 validation images; this is a project demo, not a medical diagnostic tool.</p>
+                        </details>
+
+                        <div class="project-result">
+                            <strong>92.8%</strong>
+                            <span>accuracy · 83 validation images</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/hebawl/retinal-dr-classification" target="_blank" rel="noopener noreferrer" class="project-link">GitHub ↗</a>
                         </div>
 
                     </div>
@@ -255,11 +352,23 @@
 
                 <div class="experience-item">
 
-                    <span>Jul–Sep 2026</span>
+                    <span>AUG — OCT 2026</span>
+
+                    <div>
+                        <h3>Samsung Innovation Campus · AI Program</h3>
+                        <p>Samsung · AI track · 300 hours of training and an 80-hour team capstone covering ML, NLP, and neural networks.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="experience-item">
+
+                    <span>JUL — SEP 2026</span>
 
                     <div>
                         <h3>Machine Learning Intern</h3>
-                        <p>FlyRank · Remote</p>
+                        <p>FlyRank · Remote · Analyzed 30,000+ pages across 32 client sites and built a machine-learning content triage workflow.</p>
                     </div>
 
                 </div>
@@ -267,11 +376,11 @@
 
                 <div class="experience-item">
 
-                    <span>Aug–Sep 2025</span>
+                    <span>AUG — SEP 2025</span>
 
                     <div>
                         <h3>Technical Department Intern</h3>
-                        <p>Almadar Aljadid · On-site, Libya</p>
+                        <p>Almadar Aljadid Telecommunications Company · On-site, Libya · Supported network troubleshooting, technical planning, and infrastructure work.</p>
                     </div>
 
                 </div>
@@ -279,11 +388,11 @@
 
                 <div class="experience-item">
 
-                    <span>Jul–Aug 2024</span>
+                    <span>JUL 01–29 2024</span>
 
                     <div>
                         <h3>IT Intern</h3>
-                        <p>Sheraton Ankara · On-site, Ankara, Turkey</p>
+                        <p>Turser Turizm Servis Yayıncılık ve Ticaret A.Ş. · On-site, Sheraton Ankara · Assisted hotel staff with hardware, systems, and IT troubleshooting.</p>
                     </div>
 
                 </div>
@@ -293,31 +402,195 @@
         </section>
 
 
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <p class="section-label">04 / EDUCATION</p>
+            <div class="education-list">
+                <article class="education-item">
+                    <span>2022 — 2026</span>
+                    <div>
+                        <h3>B.Sc. Computer Engineering</h3>
+                        <p>Ankara Medipol University · Graduated July 2026 · GPA 3.21 / 4.00</p>
+                    </div>
+                </article>
+                <article class="education-item">
+                    <span>2019 — 2022</span>
+                    <div>
+                        <h3>Alfaezoun School</h3>
+                        <p>Secondary education</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- CREDENTIALS -->
+        <section id="credentials" class="section">
+            <div class="section-heading">
+                <p class="section-label">05 / CERTIFICATES & BADGES</p>
+                <p class="section-intro">A growing collection of training, courses, and verified experience.</p>
+                <a class="credential-profile-link" href="https://www.linkedin.com/in/heba-walid-awad-6934112b4/details/certifications/" target="_blank" rel="noopener noreferrer">Browse my LinkedIn certificates ↗</a>
+            </div>
+            <div class="credentials-grid">
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://www.credly.com/badges/d524cfa9-1015-4732-a0a2-71b115da32d4/linked_in_profile" target="_blank" rel="noopener noreferrer" aria-label="Open PMI Fundamentals of Predictive Project Management badge">
+                        <img class="credential-image" src="assets/PMI_Predictive_Project_Management_Badge.png" alt="Credly badge for Fundamentals of Predictive Project Management, issued by PMI" loading="lazy">
+                    </a>
+                    <p class="credential-provider">PROJECT MANAGEMENT INSTITUTE · NOV 2026</p>
+                    <h3>Fundamentals of Predictive Project Management</h3>
+                    <p>Introductory project-planning concepts, including schedules, requirements, stakeholders, and risk planning.</p>
+                    <a class="credential-link" href="https://www.credly.com/badges/d524cfa9-1015-4732-a0a2-71b115da32d4/linked_in_profile" target="_blank" rel="noopener noreferrer">View verified badge ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://www.coursera.org/account/accomplishments/verify/V7PKCP9G4T0J" target="_blank" rel="noopener noreferrer" aria-label="Open IBM Deep Learning with Keras and TensorFlow certificate">
+                        <img class="credential-image" src="assets/IBM_Deep_Learning_Certificate.jpg" alt="Coursera certificate for Deep Learning with Keras and TensorFlow, completed by Heba Walid Awad" loading="lazy">
+                    </a>
+                    <p class="credential-provider">IBM · COURSERA · NOV 2026</p>
+                    <h3>Deep Learning with Keras and TensorFlow</h3>
+                    <p>Completed Nov 11, 2026 · approximately 23 hours.</p>
+                    <p class="credential-id">Credential ID · V7PKCP9G4T0J</p>
+                    <a class="credential-link" href="https://www.coursera.org/account/accomplishments/verify/V7PKCP9G4T0J" target="_blank" rel="noopener noreferrer">View verified certificate ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://www.credential.net/8ee31dc2-aeab-462d-8af8-b7ed1b7f5327" target="_blank" rel="noopener noreferrer" aria-label="Open Samsung Innovation Campus AI course badge">
+                        <img class="credential-image" src="assets/Samsung_Innovation_Campus_Badge.png" alt="Samsung Innovation Campus AI Course, Libya 2026 graduate badge" loading="lazy">
+                    </a>
+                    <p class="credential-provider">SAMSUNG · OCT 2026</p>
+                    <h3>Samsung Innovation Campus AI Course</h3>
+                    <p>Artificial Intelligence track · 300 hours of training and an 80-hour team capstone.</p>
+                    <p class="credential-id">Credential ID · 197632370</p>
+                    <a class="credential-link" href="https://www.credential.net/8ee31dc2-aeab-462d-8af8-b7ed1b7f5327" target="_blank" rel="noopener noreferrer">View verified badge ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="assets/FlyRank_Machine_Learning_Certificate.png" target="_blank" rel="noopener noreferrer" aria-label="Open FlyRank Machine Learning internship certificate">
+                        <img class="credential-image" src="assets/FlyRank_Machine_Learning_Certificate.png" alt="FlyRank certificate confirming Heba completed the Machine Learning Internship Program from July 1 to September 7, 2026" loading="lazy">
+                    </a>
+                    <p class="credential-provider">FLYRANK.AI · SEP 2026</p>
+                    <h3>Machine Learning Internship Program</h3>
+                    <p>Completed the FlyRank.ai internship program from July 1 to September 7, 2026.</p>
+                    <a class="credential-link" href="assets/FlyRank_Machine_Learning_Certificate.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                    <a class="credential-verify" href="https://internship.flyrank.ai/verify" target="_blank" rel="noopener noreferrer">Verify · FR-D11-8A521-8C2AE ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://www.datacamp.com/completed/statement-of-accomplishment/course/1cc633b8fd0d89287a67a5a688224d4406ecb3e4?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa" target="_blank" rel="noopener noreferrer" aria-label="Open DataCamp Supervised Learning with scikit-learn badge">
+                        <img class="credential-image" src="assets/DataCamp_Supervised_Learning_Badge.png" alt="DataCamp Statement of Accomplishment badge for Supervised Learning with scikit-learn" loading="lazy">
+                    </a>
+                    <p class="credential-provider">DATACAMP · JUN 2026</p>
+                    <h3>Supervised Learning with scikit-learn</h3>
+                    <p class="credential-id">Credential ID · 1cc633b8fd0d89287a67a5a688224d4406ecb3e4</p>
+                    <a class="credential-link" href="https://www.datacamp.com/completed/statement-of-accomplishment/course/1cc633b8fd0d89287a67a5a688224d4406ecb3e4?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8daf1168-defb-4d07-9991-4a2e14894703" target="_blank" rel="noopener noreferrer" aria-label="Open MathWorks Image Processing Onramp certificate">
+                        <img class="credential-image" src="assets/MathWorks_Image_Processing_Onramp_Certificate.png" alt="MathWorks Course Completion Certificate for Image Processing Onramp, completed by Heba Walid Awad on April 15, 2026" loading="lazy">
+                    </a>
+                    <p class="credential-provider">MATHWORKS · APR 2026</p>
+                    <h3>Image Processing Onramp</h3>
+                    <p>Completed April 15, 2026 · 2 hours.</p>
+                    <a class="credential-link" href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8daf1168-defb-4d07-9991-4a2e14894703" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="assets/Udacity_AWS_AI_Productivity_App_Badge.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Udacity AWS Scholars project badge">
+                        <img class="credential-image" src="assets/Udacity_AWS_AI_Productivity_App_Badge.jpg" alt="Udacity AWS Scholars project badge for Build Your First AI Productivity App" loading="lazy">
+                    </a>
+                    <p class="credential-provider">UDACITY · AWS SCHOLARS · APR 2026</p>
+                    <h3>Build Your First AI Productivity App</h3>
+                    <p>AWS Scholars Program project badge.</p>
+                    <a class="credential-link" href="https://www.linkedin.com/in/heba-walid-awad-6934112b4/details/certifications/" target="_blank" rel="noopener noreferrer">View on LinkedIn ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://www.datacamp.com/completed/statement-of-accomplishment/course/fb5f3d067220f7249ed8bff283cc80825db5d69d?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa" target="_blank" rel="noopener noreferrer" aria-label="Open DataCamp Intermediate Git badge">
+                        <img class="credential-image" src="assets/DataCamp_Intermediate_Git_Badge.png" alt="DataCamp Statement of Accomplishment badge for Intermediate Git" loading="lazy">
+                    </a>
+                    <p class="credential-provider">DATACAMP · APR 2026</p>
+                    <h3>Intermediate Git</h3>
+                    <p class="credential-id">Credential ID · fb5f3d067220f7249ed8bff283cc80825db5d69d</p>
+                    <a class="credential-link" href="https://www.datacamp.com/completed/statement-of-accomplishment/course/fb5f3d067220f7249ed8bff283cc80825db5d69d?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+                <article class="credential-card">
+                    <a class="credential-image-link" href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7ef75e30-3f1a-4119-9cc2-edecb3d58413" target="_blank" rel="noopener noreferrer" aria-label="Open MathWorks Machine Learning Onramp certificate">
+                        <img class="credential-image" src="assets/MathWorks_Machine_Learning_Onramp_Certificate.png" alt="MathWorks Course Completion Certificate for Machine Learning Onramp, completed by Heba Walid Awad on November 1, 2025" loading="lazy">
+                    </a>
+                    <p class="credential-provider">MATHWORKS · NOV 2025</p>
+                    <h3>Machine Learning Onramp</h3>
+                    <p>Completed November 1, 2025 · 1 hour.</p>
+                    <a class="credential-link" href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7ef75e30-3f1a-4119-9cc2-edecb3d58413" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+                <article class="credential-card credential-featured">
+                    <a class="credential-image-link" href="https://www.credly.com/badges/76720a54-330d-47ae-9506-d70af47422b1/linked_in_profile" target="_blank" rel="noopener noreferrer" aria-label="Open Cisco Introduction to IoT badge">
+                        <img class="credential-image" src="assets/Cisco_Introduction_to_IoT_Badge.png" alt="Credly badge for Cisco Introduction to Internet of Things" loading="lazy">
+                    </a>
+                    <p class="credential-provider">CISCO · OCT 2025</p>
+                    <h3>Introduction to IoT</h3>
+                    <p>Introductory concepts in IoT, connected devices, and digital transformation.</p>
+                    <a class="credential-link" href="https://www.credly.com/badges/76720a54-330d-47ae-9506-d70af47422b1/linked_in_profile" target="_blank" rel="noopener noreferrer">View verified badge ↗</a>
+                </article>
+                <article class="credential-card">
+                    <a class="credential-image-link" href="https://tryhackme.com/certificate/THM-SZZIOJKHUT" target="_blank" rel="noopener noreferrer" aria-label="Open TryHackMe Pre Security certificate">
+                        <img class="credential-image" src="assets/TryHackMe_Pre_Security_Certificate.png" alt="TryHackMe Certificate of Completion for the Pre Security Learning Path, completed by Heba Walid Awad on September 24, 2025" loading="lazy">
+                    </a>
+                    <p class="credential-provider">TRYHACKME · SEP 2025</p>
+                    <h3>Pre Security Certificate</h3>
+                    <p class="credential-id">Credential ID · THM-SZZIOJKHUT · Expires Sep 2028</p>
+                    <a class="credential-link" href="https://tryhackme.com/certificate/THM-SZZIOJKHUT" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+                <article class="credential-card">
+                    <a class="credential-image-link" href="https://tryhackme.com/certificate/THM-HOILBDEUXO" target="_blank" rel="noopener noreferrer" aria-label="Open TryHackMe Cyber Security 101 certificate">
+                        <img class="credential-image" src="assets/TryHackMe_Cyber_Security_101_Certificate.png" alt="TryHackMe Certificate of Completion for the Cyber Security 101 Learning Path, completed by Heba Walid Awad on September 22, 2025" loading="lazy">
+                    </a>
+                    <p class="credential-provider">TRYHACKME · SEP 2025</p>
+                    <h3>Cyber Security 101 Certificate</h3>
+                    <p class="credential-id">Credential ID · THM-HOILBDEUXO · Expires Sep 2028</p>
+                    <a class="credential-link" href="https://tryhackme.com/certificate/THM-HOILBDEUXO" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+                <article class="credential-card">
+                    <a class="credential-image-link" href="assets/Sheraton_IT_Internship_Certificate.png" target="_blank" rel="noopener noreferrer" aria-label="Open Sheraton Ankara IT internship certificate">
+                        <img class="credential-image" src="assets/Sheraton_IT_Internship_Certificate.png" alt="Sheraton Ankara certificate confirming Heba's Information and Technology Department internship, July 1–29, 2024" loading="lazy">
+                    </a>
+                    <p class="credential-provider">SHERATON ANKARA · JUL 2024</p>
+                    <h3>Information & Technology Internship</h3>
+                    <p>Internship certificate for the Sheraton Ankara Hotel & Convention Center.</p>
+                    <a class="credential-link" href="assets/Sheraton_IT_Internship_Certificate.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                </article>
+            </div>
+        </section>
+
+
         <!-- SKILLS -->
         <section id="skills" class="section">
 
-            <p class="section-label">04 / WORKING TOOLKIT</p>
+            <p class="section-label">06 / WORKING TOOLKIT</p>
 
             <div class="skills-content">
 
                 <div class="skill-group">
+                    <p class="skill-category">LANGUAGES & FRAMEWORKS</p>
+                    <p>Python · Java · SQL · Django · FastAPI · REST APIs · React · React Native</p>
+                </div>
+
+                <div class="skill-group">
+                    <p class="skill-category">DATA & MACHINE LEARNING</p>
+                    <p>scikit-learn · PyTorch · TensorFlow · Keras · Pandas · NumPy · Data preprocessing · Model evaluation</p>
+                </div>
+
+                <div class="skill-group">
+                    <p class="skill-category">BACKEND & DATA</p>
+                    <p>FastAPI · Django · PostgreSQL · SQL · Database migrations · API integration</p>
+                </div>
+
+                <div class="skill-group">
+                    <p class="skill-category">TOOLS & PRACTICES</p>
+                    <p>Git · GitHub · Docker · Docker Compose · Jupyter · Network troubleshooting · Routing · Switching · VLANs</p>
+                </div>
+
+                <div class="skill-group">
                     <p class="skill-category">LANGUAGES</p>
-                    <p>Python · Java · SQL</p>
+                    <p>English · Fluent &nbsp; Arabic · Fluent &nbsp; Turkish · Basic</p>
                 </div>
 
                 <div class="skill-group">
-                    <p class="skill-category">MACHINE LEARNING</p>
-                    <p>Scikit-learn · Data Preprocessing · Model Training · Evaluation · Regression</p>
-                </div>
-
-                <div class="skill-group">
-                    <p class="skill-category">DATABASE</p>
-                    <p>PostgreSQL · SQL · Relational Database Design · Query Optimization</p>
-                </div>
-
-                <div class="skill-group">
-                    <p class="skill-category">TOOLS & FRAMEWORKS</p>
-                    <p>Git · GitHub · Jupyter · React Native · Python Pandas</p>
+                    <p class="skill-category">HOW I WORK</p>
+                    <p>Analytical thinking · Problem-solving · Communication · Teamwork · Time management</p>
                 </div>
 
             </div>
@@ -328,11 +601,9 @@
         <!-- CONTACT -->
         <section id="contact" class="contact">
 
-            <p class="section-label">05 / CONTACT</p>
+            <p class="section-label">07 / CONTACT</p>
 
-            <h2>
-                Let's talk about your idea.
-            </h2>
+            <h2>Contact</h2>
 
             <a
                 href="mailto:anizihiba2@gmail.com"
@@ -340,13 +611,14 @@
             >
                 anizihiba2@gmail.com ↗
             </a>
+            <p class="contact-location">Çankaya, Ankara, Türkiye · <a href="tel:+905530282109">+90 553 028 21 09</a></p>
 
             <div class="contact-links">
-                <a href="https://github.com/hebawl" target="_blank">
+                <a href="https://github.com/hebawl" target="_blank" rel="noopener noreferrer">
                     GitHub
                 </a>
 
-                <a href="https://linkedin.com/in/heba-walid-awad-6934112b4" target="_blank">
+                <a href="https://linkedin.com/in/heba-walid-awad-6934112b4" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
             </div>
@@ -361,8 +633,6 @@
         <span>© 2026</span>
     </footer>
 
-
-    <script src="script.js"></script>
 
 </body>
 </html>

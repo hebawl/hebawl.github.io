@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title description">
+  <title id="title">Retinal image classification concept</title>
+  <desc id="description">An illustrative retinal scan beside a two-class model result.</desc>
+  <defs>
+    <radialGradient id="retina" cx="48%" cy="47%" r="52%">
+      <stop offset="0" stop-color="#f8a77c"/>
+      <stop offset=".58" stop-color="#cc654e"/>
+      <stop offset="1" stop-color="#693d4b"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#edf6f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="420" rx="28" fill="#eaf3ef"/>
+  <circle cx="230" cy="210" r="152" fill="url(#retina)"/>
+  <circle cx="230" cy="210" r="152" fill="none" stroke="#fff" stroke-opacity=".62" stroke-width="8"/>
+  <circle cx="230" cy="210" r="25" fill="#f3c790" opacity=".8"/>
+  <g fill="none" stroke="#742c40" stroke-linecap="round" stroke-width="9" opacity=".75">
+    <path d="M230 210C189 182 165 142 154 94M230 210c-53-4-95 8-130 36M230 210c-44 35-68 70-79 117M230 210c40-47 67-84 81-131M230 210c55 14 95 39 126 78M230 210c50 50 71 91 78 132"/>
+    <path d="M159 118c-22-9-38-25-47-43M136 233c-15 17-28 37-34 60M170 300c-20 8-35 22-46 39M289 112c22-13 34-32 44-53M327 268c21 6 36 18 49 34M299 307c14 20 24 40 27 62"/>
+  </g>
+  <rect x="430" y="86" width="270" height="248" rx="24" fill="url(#card)" stroke="#d7e4dc" stroke-width="2"/>
+  <text x="468" y="136" fill="#6b8177" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">MODEL DEMO</text>
+  <text x="468" y="180" fill="#183b35" font-family="Arial, sans-serif" font-size="25" font-weight="700">Retinal image</text>
+  <text x="468" y="211" fill="#183b35" font-family="Arial, sans-serif" font-size="25" font-weight="700">classification</text>
+  <rect x="468" y="243" width="188" height="42" rx="21" fill="#e9f4ed"/>
+  <circle cx="489" cy="264" r="6" fill="#4a9a72"/>
+  <text x="506" y="270" fill="#285941" font-family="Arial, sans-serif" font-size="14">Normal / possible DR</text>
+  <text x="468" y="310" fill="#e5674e" font-family="Arial, sans-serif" font-size="12">Research demo · not a diagnosis</text>
+</svg>
